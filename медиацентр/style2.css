@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    transition: color 0.2s;
+    transition: width 0.2s ease-in-out;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.mainhead {
+    width: 410px;
+    height: 33px;
+    margin-left: 10%;
+    margin-top: 6.9%;
+
+    /* H2 */
+
+    font-family: 'Bert Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    /* identical to box height, or 33px */
+
+    text-transform: uppercase;
+
+    /* blue (logo 5) */
+
+    color: #1E689D;
+}
+
+.commonryad {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ryad1 {
+    justify-content: center;
+ margin-top: 1%;
+display: inline-flex;
+}
+.ryad2{
+    padding-top: 2%;
+    justify-content: center;
+
+display: inline-flex;
+}
+
+.frame {
+
+    box-sizing: border-box;
+    border: 1px solid #777777;
+
+
+    margin-left: 16.45%;
+    margin-top: 3%;
+    width: 80%;
+    height: 100%;
+  
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    padding-left: 78%;
+    margin-top: 5%;
+}
+
+.datetext {
+    font-size: 11px;
+    color: #777777;
+    padding-top: 2%;
+    margin-left: 10%;
+}
+
+.head {
+    font-size: 120%;
+
+}
+
+.low {
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+}
+
+.line {
+    padding-right: 50%;
+    padding-top: 2%;
+    transition: width 0.2s ease-in-out;
+}
+
+.content {
+    padding-bottom: 5%;
+    margin-top: 2%;
+    color: #1E1E1E;
+    font-size: 85%;
+    line-height: 1.6;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 4%;
+}
+
+.leftarrow{
+    width: 15%;
+}
+.numbers{
+    padding-left: -5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+#one{
+    margin-left:5%;
+}
+#two{
+    margin-left: -3%;
+}
+#three{
+    margin-left: -3%;
+    margin-right: 5%;
+}
+
+#four{
+    margin-left:5%;
+}
+#five{
+    margin-left: -3%;
+}
+#six{
+    margin-left: -3%;
+    margin-right: 5%;
+}
+#number1{
+    margin-left: -280%;
+}
+
+#number2{
+    margin-left: 70%;
+}
+
+#number3{
+    margin-left: 70%;
+}
+
+#number4{
+    margin-left: 70%;
+    margin-right: -300%;
+}
+
+.pic{
+padding-left: 0.4%;
+width: 50%;}
+
+.frame:hover{
+    box-shadow: 10px 10px 10px rgba(30, 104, 157, 0.2);
+    background-color: #F3F9FB;
+    
+    
+    }
+    
+    .frame:hover .head{
+    color: #1E689D;
+    }
+    
+    .frame:hover .line hr{
+    border-color: #1E689D;
+    }
+    
+    
+    .frame:hover .line{
+    color: #1E689D;
+    width: 145%;
+    transition: width 0.1s ease-in-out;
+    }
+
+
+

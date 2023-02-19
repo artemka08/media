@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: color 0.2s;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.mainhead {
+    width: 410px;
+    height: 33px;
+    margin-left: 12.2%;
+    margin-top: 6.9%;
+
+    /* H2 */
+
+    font-family: 'Bert Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    /* identical to box height, or 33px */
+
+    text-transform: uppercase;
+
+    /* blue (logo 5) */
+
+    color: #1E689D;
+}
+
+
+
+.ryad1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 38%;
+margin-right: 30%;
+}
+
+
+.ryad2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 13.1%;
+}
+
+.karusel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frame {
+    box-sizing: border-box;
+    border: 1px solid #777777;
+
+
+    margin-left: 12.2%;
+    margin-top: 3%;
+    width: 410px;
+    height: 500px;
+    box-shadow: 10px 10px 10px rgba(30, 104, 157, 0.2);
+}
+
+
+.picdate1 {
+    margin-left: 73.9%;
+    margin-top: 6.334%;
+    Width: 15px;
+    Height: 16.67px;
+
+}
+
+
+
+.namedate1 {
+    margin-left: 78.5%;
+    margin-top: 6.4%;
+    Width: 60px;
+    Height: 18px;
+}
+
+.strelka1 {
+    width: 40px;
+    height: 80px;
+    margin-left: 39.3%;
+    margin-bottom: 5.3%;
+}
+
+.cifra1 {
+    width: 40px;
+    height: 80px;
+    margin-left: 2.3%;
+}
+
+
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
